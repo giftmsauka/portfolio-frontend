@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cursor glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo">DATA SCIENCE<span class="logo-dot">.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" data-text="Profile">Profile</a></li>
+                <li><a href="#skills" data-text="Skills">Skills</a></li>
+                <li><a href="#qualifications" data-text="Education">Education</a></li>
+                <li><a href="#projects" data-text="Projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta" data-text="Contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for internship opportunities
+            </div>
+            <h1 class="hero-title">
+                <span class="line-reveal">Hello, I'm</span>
+                <span class="line-reveal name-line">GIFT GEORGE MSAUKA</span>
+            </h1>
+            <p class="hero-sub">Web Developer & Data Analyst</p>
+            <p class="hero-desc">
+                Passionate about cloud infrastructure, scalable web applications,
+                and modern deployment workflows. Currently studying at the intersection
+                of technology and innovation.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn-ghost">Get In Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num" id="stat1">3+</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num" id="stat2">2</span>
+                    <span class="stat-label">Cloud Platforms</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num" id="stat3">5+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="profile-ring">
+                <div class="ring ring-outer"></div>
+                <div class="ring ring-middle"></div>
+                <div class="profile-img-wrap">
+                    <img src="images/Gift-92.jpg" alt="Gift Msauka" class="Gift-92-img">
+                </div>
+                <div class="float-tag tag-1"><i class="fas fa-cloud"></i> Vercel</div>
+                <div class="float-tag tag-2"><i class="fas fa-server"></i> Render</div>
+                <div class="float-tag tag-3"><i class="fab fa-node-js"></i> Node.js</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 — About Me</span>
+                <h2 class="section-title">Personal Profile</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I'm a driven Cloud Computing student with a deep interest in how
+                        technology shapes the future of software delivery and infrastructure.
+                    </p>
+                    <p>
+                        My academic journey has equipped me with strong foundations in web
+                        development, backend systems, and cloud deployment strategies. I thrive
+                        on solving complex problems through clean, scalable code and enjoy
+                        bringing ideas from concept to deployed product.
+                    </p>
+                    <p>
+                        When I'm not coding, I explore new cloud services, contribute to
+                        open-source projects, and stay current with emerging tech trends.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tanzania</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Cloud Computing Student</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>msaukagift@email.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card-wrap">
+                    <div class="about-card">
+                        <div class="ac-header">
+                            <div class="ac-avatar">DATA</div>
+                            <div>
+                                <div class="ac-name">GIFT GEORGE MSAUKA</div>
+                                <div class="ac-role">Cloud Computing Student</div>
+                            </div>
+                        </div>
+                        <div class="ac-items">
+                            <div class="ac-item">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <span class="ac-label">Specialty</span>
+                                    <span class="ac-val">Full-Stack + Cloud</span>
+                                </div>
+                            </div>
+                            <div class="ac-item">
+                                <i class="fas fa-language"></i>
+                                <div>
+                                    <span class="ac-label">Languages</span>
+                                    <span class="ac-val">English, Swahili</span>
+                                </div>
+                            </div>
+                            <div class="ac-item">
+                                <i class="fas fa-star"></i>
+                                <div>
+                                    <span class="ac-label">Status</span>
+                                    <span class="ac-val ac-open">Open to opportunities</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 — Skills</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3 class="skill-group-title"><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                            <span class="skill-pct">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                            <span class="skill-pct">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                            <span class="skill-pct">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="skill-group-title"><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                            <span class="skill-pct">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                            <span class="skill-pct">70%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST APIs</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+                            <span class="skill-pct">72%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="skill-group-title"><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Vercel</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                            <span class="skill-pct">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Render</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                            <span class="skill-pct">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                            <span class="skill-pct">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech badges -->
+            <div class="tech-badges">
+                <span class="badge"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="badge"><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span class="badge"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="badge"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="badge"><i class="fas fa-database"></i> Express</span>
+                <span class="badge"><i class="fab fa-github"></i> GitHub</span>
+                <span class="badge"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
+                <span class="badge"><i class="fas fa-server"></i> Render</span>
+                <span class="badge"><i class="fas fa-code-branch"></i> REST API</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications -->
+    <section class="section" id="qualifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 — Education</span>
+                <h2 class="section-title">Qualifications</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-marker"></div>
+                    <div class="tl-card">
+                        <div class="tl-year">2022 — Present</div>
+                        <h3 class="tl-degree">Bachelor Degree In Data Science</h3>
+                        <p class="tl-school"><i class="fas fa-university"></i> Centre / EASTC</p>
+                        <p class="tl-desc">
+                            Focused coursework in cloud computing, network infrastructure,
+                            web application development, database systems, and modern software
+                            engineering methodologies.
+                        </p>
+                        <div class="tl-tags">
+                            <span>Cloud Computing</span>
+                            <span>Networking</span>
+                            <span>Web Dev</span>
+                            <span>Databases</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-marker"></div>
+                    <div class="tl-card">
+                        <div class="tl-year">2026</div>
+                        <h3 class="tl-degree">Cloud Deployment & Portfolio Project</h3>
+                        <p class="tl-school"><i class="fas fa-cloud"></i> Cloud Computing Module</p>
+                        <p class="tl-desc">
+                            Designed, built, and deployed a full-stack personal portfolio
+                            using Vercel (frontend) and Render (backend API), demonstrating
+                            real-world cloud deployment skills.
+                        </p>
+                        <div class="tl-tags">
+                            <span>Vercel</span>
+                            <span>Render</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-dark" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04 — Work</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card featured">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-user-circle"></i></div>
+                        <div class="proj-links">
+                            <a href="https://myportfolio.vercel.app" target="_blank" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/giftmsauka/portfolio" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proj-badge">Featured</div>
+                    <h3 class="proj-title">Personal Portfolio Website</h3>
+                    <p class="proj-desc">
+                        A responsive personal portfolio website hosted on Vercel with a
+                        Node.js/Express backend API deployed on Render. Features smooth
+                        animations and dynamic content loading.
+                    </p>
+                    <div class="proj-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        <span>Vercel</span><span>Render</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-users"></i></div>
+                        <div class="proj-links">
+                            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="proj-title">Student Management System</h3>
+                    <p class="proj-desc">
+                        A web-based system for managing student records, course
+                        registrations, and academic performance tracking with a
+                        clean administrative dashboard.
+                    </p>
+                    <div class="proj-tech">
+                        <span>Node.js</span><span>Express</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <div class="proj-links">
+                            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="proj-title">Cloud Deployment Project</h3>
+                    <p class="proj-desc">
+                        End-to-end cloud deployment exercise demonstrating CI/CD
+                        workflows, environment configuration, and deployment
+                        automation using modern cloud platforms.
+                    </p>
+                    <div class="proj-tech">
+                        <span>Vercel</span><span>Render</span><span>GitHub</span><span>Node.js</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05 — Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-sub">Feel free to reach out for collaboration, internship opportunities, or just to say hello.</p>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-cards">
+                    <a href="mailto:johndoe@email.com" class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="cc-info">
+                            <span class="cc-label">Email</span>
+                            <span class="cc-value">msaukagift@email.com</span>
+                        </div>
+                        <i class="fas fa-arrow-right cc-arrow"></i>
+                    </a>
+                    <a href="tel:+255000000000" class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-phone"></i></div>
+                        <div class="cc-info">
+                            <span class="cc-label">Phone</span>
+                            <span class="cc-value">+255 749760141</span>
+                        </div>
+                        <i class="fas fa-arrow-right cc-arrow"></i>
+                    <a href="https://github.com/giftmsauka" target="_blank" class="contact-card">
+                        <div class="cc-icon"><i class="fab fa-github"></i></div>
+                        <div class="cc-info">
+                            <span class="cc-label">GitHub</span>
+                            <span class="cc-value">github.com/giftmsauka</span>
+                        </div>
+                        <i class="fas fa-arrow-right cc-arrow"></i>
+                    </a>
+                </div>
+                <div class="api-demo" id="apiDemo">
+                    <div class="api-demo-header">
+                        <span class="api-dot"></span>
+                        <span>Live API Demo</span>
+                        <button class="api-btn" id="fetchApiBtn">
+                            <i class="fas fa-sync-alt" id="syncIcon"></i> Fetch from Backend
+                        </button>
+                    </div>
+                    <pre class="api-output" id="apiOutput">// Click "Fetch from Backend" to load live data
+// from your Render-hosted API endpoint
+// GET https://portfolio-api.onrender.com/portfolio</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">DATA SCIENCE<span>.</span></div>
+            <p class="footer-text">© 2026 GIFT GEORGE MSAUKA(Creator)</p>
+            <div class="footer-links">
+                <a href="https://github.com/giftmsauka" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:msaukagift@email.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
