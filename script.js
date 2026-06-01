@@ -136,9 +136,9 @@ const fallbackData = {
     skills: ["Machine Learning", "R", "Python", "Data Analysis", "QGIS"],
     contact: {
         email: "msaukagift@email.com",
-        phone: "+255 74976011",
+        phone: "+255 695 984 497",
         github: "github.com/giftmsauka",
-        location: "Tanzania"
+        location: "Dar es Salaam, Tanzania"
     },
     projects: [
         {
