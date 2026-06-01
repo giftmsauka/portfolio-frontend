@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Gift George Msauka — Data Science Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +12,21 @@
 </head>
 <body>
 
-    <!-- Cursor glow -->
     <div class="cursor-glow" id="cursorGlow"></div>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-inner">
-            <a href="#home" class="logo">DATA SCIENCE<span class="logo-dot">.</span></a>
+            <a href="#home" class="logo">
+                <span class="logo-bracket">[</span>DS<span class="logo-bracket">]</span>
+                MSAUKA<span class="logo-dot">.</span>
+            </a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#about" data-text="Profile">Profile</a></li>
-                <li><a href="#skills" data-text="Skills">Skills</a></li>
-                <li><a href="#qualifications" data-text="Education">Education</a></li>
-                <li><a href="#projects" data-text="Projects">Projects</a></li>
-                <li><a href="#contact" class="nav-cta" data-text="Contact">Contact</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#qualifications">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
             </ul>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
@@ -48,11 +50,11 @@
                 <span class="line-reveal">Hello, I'm</span>
                 <span class="line-reveal name-line" id="hero-name">GIFT GEORGE MSAUKA</span>
             </h1>
-            <p class="hero-sub" id="hero-role">Data Analyst & Web Developer</p>
+            <p class="hero-sub" id="hero-role">Data Science Student &amp; Aspiring Data Analyst</p>
             <p class="hero-desc" id="hero-desc">
-                Passionate about cloud infrastructure, scalable web applications,
-                and modern deployment workflows. Currently studying at the intersection
-                of technology and innovation.
+                Third-year Bachelor of Data Science student at EASTC, Dar es Salaam.
+                Passionate about transforming raw data into meaningful insights through
+                statistical analysis, machine learning, and cloud deployment.
             </p>
             <div class="hero-actions">
                 <a href="#projects" class="btn-primary">
@@ -63,17 +65,17 @@
             </div>
             <div class="hero-stats">
                 <div class="stat">
-                    <span class="stat-num" id="stat1">3+</span>
+                    <span class="stat-num">3+</span>
                     <span class="stat-label">Projects Built</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-num" id="stat2">2</span>
+                    <span class="stat-num">2</span>
                     <span class="stat-label">Cloud Platforms</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-num" id="stat3">5+</span>
+                    <span class="stat-num">10+</span>
                     <span class="stat-label">Technologies</span>
                 </div>
             </div>
@@ -83,11 +85,11 @@
                 <div class="ring ring-outer"></div>
                 <div class="ring ring-middle"></div>
                 <div class="profile-img-wrap">
-                    <img src="images/Gift-92.jpg" alt="GIFT GEORGE MSAUKA" class="Gift-92-img">
+                    <img src="images/Gift-92.jpg" alt="Gift George Msauka" class="Gift-92-img">
                 </div>
-                <div class="float-tag tag-1"><i class="fas fa-cloud"></i> Vercel</div>
-                <div class="float-tag tag-2"><i class="fas fa-server"></i> Render</div>
-                <div class="float-tag tag-3"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="float-tag tag-1"><i class="fab fa-python"></i> Python</div>
+                <div class="float-tag tag-2"><i class="fas fa-chart-bar"></i> ML</div>
+                <div class="float-tag tag-3"><i class="fas fa-cloud"></i> Cloud</div>
             </div>
         </div>
     </section>
@@ -95,15 +97,16 @@
     <!-- About -->
     <section class="section" id="about">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">01 — About Me</span>
                 <h2 class="section-title">Personal Profile</h2>
             </div>
-            <div class="about-grid">
+            <div class="about-grid reveal">
                 <div class="about-text">
                     <p class="about-lead">
-                        I am Gift George Msauka, studying at the EASTC Statistics Centre.
-                        I study Python, Machine Learning, and R for data analysis.
+                        I am Gift George Msauka, a third-year Data Science student at EASTC.
+                        I specialise in Python, Machine Learning, statistical analysis, and R
+                        for data-driven decision making.
                     </p>
                     <p>
                         My academic journey has equipped me with strong foundations in web
@@ -112,17 +115,18 @@
                         bringing ideas from concept to deployed product.
                     </p>
                     <p>
-                        When I'm not coding, I explore new cloud services, contribute to
-                        open-source projects, and stay current with emerging tech trends.
+                        When I'm not coding, I explore new cloud services, work on data analysis
+                        projects, and stay current with emerging trends in artificial intelligence
+                        and machine learning.
                     </p>
                     <div class="about-details">
                         <div class="detail-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span id="about-location">Tanzania</span>
+                            <span id="about-location">Dar es Salaam, Tanzania</span>
                         </div>
                         <div class="detail-item">
                             <i class="fas fa-graduation-cap"></i>
-                            <span id="about-role">Cloud Computing Student</span>
+                            <span id="about-role">Data Science Student — EASTC</span>
                         </div>
                         <div class="detail-item">
                             <i class="fas fa-envelope"></i>
@@ -133,18 +137,25 @@
                 <div class="about-card-wrap">
                     <div class="about-card">
                         <div class="ac-header">
-                            <div class="ac-avatar">DATA</div>
+                            <div class="ac-avatar">DS</div>
                             <div>
                                 <div class="ac-name" id="about-name">GIFT GEORGE MSAUKA</div>
-                                <div class="ac-role" id="about-card-role">Cloud Computing Student</div>
+                                <div class="ac-role" id="about-card-role">Data Science Student</div>
                             </div>
                         </div>
                         <div class="ac-items">
                             <div class="ac-item">
-                                <i class="fas fa-code"></i>
+                                <i class="fas fa-flask"></i>
                                 <div>
                                     <span class="ac-label">Specialty</span>
-                                    <span class="ac-val">Full-Stack + Cloud</span>
+                                    <span class="ac-val">Data Science + Cloud</span>
+                                </div>
+                            </div>
+                            <div class="ac-item">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <span class="ac-label">Institution</span>
+                                    <span class="ac-val">EASTC — Dar es Salaam</span>
                                 </div>
                             </div>
                             <div class="ac-item">
@@ -171,131 +182,149 @@
     <!-- Skills -->
     <section class="section section-dark" id="skills">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">02 — Skills</span>
                 <h2 class="section-title">Technical Skills</h2>
             </div>
             <div class="skills-grid">
-                <div class="skill-group">
-                    <h3 class="skill-group-title"><i class="fas fa-laptop-code"></i> Frontend</h3>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title"><i class="fas fa-chart-bar"></i> Data Science</h3>
                     <div class="skill-list">
                         <div class="skill-item">
-                            <span class="skill-name">HTML5</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
-                            <span class="skill-pct">90%</span>
+                            <span class="skill-name">Python</span>
+                            <span class="skill-pct">85%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">CSS3</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
-                            <span class="skill-pct">85%</span>
+                            <span class="skill-name">R Programming</span>
+                            <span class="skill-pct">75%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <span class="skill-pct">70%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Statistical Analysis</span>
+                            <span class="skill-pct">80%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title"><i class="fas fa-laptop-code"></i> Web Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 &amp; CSS3</span>
+                            <span class="skill-pct">90%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">JavaScript</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
                             <span class="skill-pct">80%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <h3 class="skill-group-title"><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Node.js</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
-                            <span class="skill-pct">75%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">Express.js</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
-                            <span class="skill-pct">70%</span>
+                            <span class="skill-name">Node.js &amp; Express</span>
+                            <span class="skill-pct">72%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">REST APIs</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
                             <span class="skill-pct">72%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
                         </div>
                     </div>
                 </div>
-                <div class="skill-group">
-                    <h3 class="skill-group-title"><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title"><i class="fas fa-cloud"></i> Cloud &amp; Tools</h3>
                     <div class="skill-list">
                         <div class="skill-item">
+                            <span class="skill-name">Git &amp; GitHub</span>
+                            <span class="skill-pct">85%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
                             <span class="skill-name">Vercel</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
                             <span class="skill-pct">80%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">Render</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
                             <span class="skill-pct">75%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">Git & GitHub</span>
-                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
-                            <span class="skill-pct">85%</span>
+                            <span class="skill-name">SQL &amp; MySQL</span>
+                            <span class="skill-pct">70%</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Tech badges -->
-            <div class="tech-badges" id="skills-list">
-                <span class="badge"><i class="fab fa-html5"></i> HTML5</span>
-                <span class="badge"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <div class="tech-badges reveal" id="skills-list">
+                <span class="badge"><i class="fab fa-python"></i> Python</span>
+                <span class="badge"><i class="fas fa-r-project" style="color:var(--accent)"></i> R</span>
+                <span class="badge"><i class="fas fa-brain"></i> Machine Learning</span>
                 <span class="badge"><i class="fab fa-js"></i> JavaScript</span>
                 <span class="badge"><i class="fab fa-node-js"></i> Node.js</span>
-                <span class="badge"><i class="fas fa-database"></i> Express</span>
+                <span class="badge"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="badge"><i class="fab fa-css3-alt"></i> CSS3</span>
                 <span class="badge"><i class="fab fa-github"></i> GitHub</span>
                 <span class="badge"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
                 <span class="badge"><i class="fas fa-server"></i> Render</span>
-                <span class="badge"><i class="fas fa-code-branch"></i> REST API</span>
+                <span class="badge"><i class="fas fa-database"></i> MySQL</span>
             </div>
         </div>
     </section>
 
-    <!-- Qualifications -->
+    <!-- Education -->
     <section class="section" id="qualifications">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">03 — Education</span>
                 <h2 class="section-title">Qualifications</h2>
             </div>
             <div class="timeline">
-                <div class="timeline-item">
+                <div class="timeline-item reveal">
                     <div class="tl-marker"></div>
                     <div class="tl-card">
                         <div class="tl-year">2023 — Present</div>
-                        <h3 class="tl-degree">Bachelor Degree In Data Science</h3>
-                        <p class="tl-school"><i class="fas fa-university"></i> Centre / EASTC</p>
+                        <h3 class="tl-degree">Bachelor of Data Science (BDS)</h3>
+                        <p class="tl-school"><i class="fas fa-university"></i> Eastern Africa Statistical Training Centre (EASTC), Dar es Salaam</p>
                         <p class="tl-desc">
-                            Focused coursework in cloud computing, network infrastructure,
-                            web application development, database systems, and modern software
-                            engineering methodologies.
+                            Focused coursework spanning data science, statistics, machine learning,
+                            web technologies, cloud computing, database systems, and predictive
+                            modelling methodologies.
                         </p>
                         <div class="tl-tags">
+                            <span>Machine Learning</span>
+                            <span>Statistics</span>
                             <span>Cloud Computing</span>
-                            <span>Networking</span>
-                            <span>Web Dev</span>
+                            <span>Web Technologies</span>
                             <span>Databases</span>
                         </div>
                     </div>
                 </div>
-                <div class="timeline-item">
+                <div class="timeline-item reveal">
                     <div class="tl-marker"></div>
                     <div class="tl-card">
                         <div class="tl-year">2026</div>
-                        <h3 class="tl-degree">Cloud Deployment & Portfolio Project</h3>
-                        <p class="tl-school"><i class="fas fa-cloud"></i> Cloud Computing Module</p>
+                        <h3 class="tl-degree">Cloud Deployment &amp; Portfolio Project</h3>
+                        <p class="tl-school"><i class="fas fa-cloud"></i> Cloud Computing Module — EASTC</p>
                         <p class="tl-desc">
                             Designed, built, and deployed a full-stack personal portfolio
                             using Vercel (frontend) and Render (backend API), demonstrating
-                            real-world cloud deployment skills.
+                            real-world cloud deployment and REST API skills.
                         </p>
                         <div class="tl-tags">
                             <span>Vercel</span>
                             <span>Render</span>
                             <span>Node.js</span>
                             <span>Express</span>
+                            <span>REST API</span>
                         </div>
                     </div>
                 </div>
@@ -306,20 +335,19 @@
     <!-- Projects -->
     <section class="section section-dark" id="projects">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">04 — Work</span>
                 <h2 class="section-title">Projects</h2>
             </div>
             <div class="projects-grid" id="projects-list">
-
-                <div class="project-card featured">
+                <div class="project-card featured reveal">
                     <div class="proj-header">
                         <div class="proj-icon"><i class="fas fa-user-circle"></i></div>
                         <div class="proj-links">
-                            <a href="https://myportfolio.vercel.app" target="_blank" title="Live Demo">
+                            <a href="https://portfolio-frontend-rose-psi.vercel.app" target="_blank" title="Live Demo">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
-                            <a href="https://github.com/giftmsauka/portfolio" target="_blank" title="GitHub">
+                            <a href="https://github.com/giftmsauka/portfolio-frontend" target="_blank" title="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -327,21 +355,40 @@
                     <div class="proj-badge">Featured</div>
                     <h3 class="proj-title">Personal Portfolio Website</h3>
                     <p class="proj-desc">
-                        A responsive personal portfolio website hosted on Vercel with a
-                        Node.js/Express backend API deployed on Render. Features smooth
-                        animations and dynamic content loading.
+                        A responsive personal portfolio with a Node.js/Express backend API
+                        deployed on Render and frontend hosted on Vercel. Data is fetched
+                        dynamically from the API on page load.
                     </p>
                     <div class="proj-tech">
                         <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                        <span>Vercel</span><span>Render</span>
+                        <span>Node.js</span><span>Vercel</span><span>Render</span>
                     </div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card reveal">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-chart-pie"></i></div>
+                        <div class="proj-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="proj-title">Web-Based Expense Analysis System</h3>
+                    <p class="proj-desc">
+                        A data science capstone applying K-Means Clustering to segment
+                        student spending behaviour at EASTC. Features a Python Flask
+                        backend, MySQL database, and interactive dashboard.
+                    </p>
+                    <div class="proj-tech">
+                        <span>Python</span><span>Flask</span><span>K-Means</span>
+                        <span>MySQL</span><span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
                     <div class="proj-header">
                         <div class="proj-icon"><i class="fas fa-users"></i></div>
                         <div class="proj-links">
-                            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                     <h3 class="proj-title">Student Management System</h3>
@@ -354,25 +401,6 @@
                         <span>Node.js</span><span>Express</span><span>HTML</span><span>CSS</span>
                     </div>
                 </div>
-
-                <div class="project-card">
-                    <div class="proj-header">
-                        <div class="proj-icon"><i class="fas fa-cloud-upload-alt"></i></div>
-                        <div class="proj-links">
-                            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="proj-title">Cloud Deployment Project</h3>
-                    <p class="proj-desc">
-                        End-to-end cloud deployment exercise demonstrating CI/CD
-                        workflows, environment configuration, and deployment
-                        automation using modern cloud platforms.
-                    </p>
-                    <div class="proj-tech">
-                        <span>Vercel</span><span>Render</span><span>GitHub</span><span>Node.js</span>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -380,14 +408,14 @@
     <!-- Contact -->
     <section class="section" id="contact">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">05 — Contact</span>
                 <h2 class="section-title">Get In Touch</h2>
                 <p class="section-sub">Feel free to reach out for collaboration, internship opportunities, or just to say hello.</p>
             </div>
-            <div class="contact-wrap">
+            <div class="contact-wrap reveal">
                 <div class="contact-cards">
-                    <a href="mailto:johndoe@email.com" class="contact-card">
+                    <a href="mailto:msaukagift@email.com" class="contact-card">
                         <div class="cc-icon"><i class="fas fa-envelope"></i></div>
                         <div class="cc-info">
                             <span class="cc-label">Email</span>
@@ -395,11 +423,11 @@
                         </div>
                         <i class="fas fa-arrow-right cc-arrow"></i>
                     </a>
-                    <a href="tel:+255749760141" class="contact-card">
+                    <a href="tel:+255695984497" class="contact-card">
                         <div class="cc-icon"><i class="fas fa-phone"></i></div>
                         <div class="cc-info">
-                            <span class="cc-label">Phone</span>
-                            <span class="cc-value" id="contact-phone">+255 74976011</span>
+                            <span class="cc-label">Phone / WhatsApp</span>
+                            <span class="cc-value" id="contact-phone">+255 695 984 497</span>
                         </div>
                         <i class="fas fa-arrow-right cc-arrow"></i>
                     </a>
@@ -422,7 +450,7 @@
                     </div>
                     <pre class="api-output" id="apiOutput">// Click "Fetch from Backend" to load live data
 // from your Render-hosted API endpoint
-// GET https://portfolio-api.onrender.com/portfolio</pre>
+// GET https://portfolio-backend-keyw.onrender.com/portfolio</pre>
                 </div>
             </div>
         </div>
@@ -431,8 +459,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-inner">
-            <div class="footer-logo">DATA SCIENCE<span>.</span></div>
-            <p class="footer-text">© 2026 GIFT GEORGE MSAUKA(Creator)</p>
+            <div class="footer-logo">DS<span>.</span>MSAUKA</div>
+            <p class="footer-text">© 2026 Gift George Msauka — Data Science Portfolio</p>
             <div class="footer-links">
                 <a href="https://github.com/giftmsauka" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="mailto:msaukagift@email.com"><i class="fas fa-envelope"></i></a>
