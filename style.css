@@ -8,8 +8,8 @@
 }
 
 :root {
-    --clr-bg: #0a0f2e;
-    --clr-bg2: #0d1535;
+    --clr-bg: #1F2937;
+    --clr-bg2: #111827;
     --clr-surface: #111b42;
     --clr-surface2: #162050;
     --clr-border: rgba(99,179,237,0.12);
@@ -34,7 +34,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-    background: linear-gradient(135deg, #0a0f2e 0%, #0d1a3e 40%, #0f1f4a 70%, #0a1830 100%);
+    background: #1F2937;
     background-attachment: fixed;
     color: var(--clr-text);
     font-family: var(--font-body);
