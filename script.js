@@ -132,8 +132,8 @@ function showErrorState() {
 const fallbackData = {
     name: "GIFT GEORGE MSAUKA",
     role: "Cloud Computing Student",
-    bio: "Passionate about cloud infrastructure, scalable web applications, and modern deployment workflows.",
-    skills: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Cloud Computing", "Git & GitHub", "Vercel", "Render"],
+    bio: "I am Gift George Msauka, studying at the EASTC Statistics Centre. I focus on Python, Machine Learning, and R for data analysis.",
+    skills: ["Machine Learning", "R", "Python", "Data Analysis", "QGIS"],
     contact: {
         email: "msaukagift@email.com",
         phone: "+255 74976011",
