@@ -8,10 +8,10 @@
 }
 
 :root {
-   --clr-bg: #071028; /* deep navy */
-    --clr-bg2: #0b1524; /* darker navy */
-    --clr-surface: #0f2030; /* card surface */
-    --clr-surface2: #12283a; /* surface secondary */
+   --clr-bg: #b91c1c; /* rich red */
+    --clr-bg2: #7f1d1d; /* darker red */
+    --clr-surface: #2a1212; /* card surface */
+    --clr-surface2: #3b1616; /* surface secondary */
     --clr-border: rgba(255,255,255,0.04);
     --clr-border2: rgba(255,255,255,0.06);
     --clr-accent: #00bcd4; /* cyan */
@@ -35,7 +35,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-    background: #0b0e00;
+    background: var(--clr-bg);
     background-attachment: fixed;
     color: var(--clr-text);
     font-family: var(--font-body);
