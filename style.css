@@ -19,8 +19,8 @@
     --gold:      #fcd34d;
     --green:     #34d399;
     --text:      #fef3c7;
-    --text2:     #d97706;
-    --text3:     #92400e;
+    --text2:     #e8c97a;
+    --text3:     #b07d3a;
     --glow:      rgba(245,158,11,0.18);
     --font-head: 'Syne', sans-serif;
     --font-body: 'DM Sans', sans-serif;
@@ -1043,6 +1043,8 @@ img { max-width: 100%; display: block; }
    CONTACT
    ===================== */
 .contact-wrap {
+    opacity: 1;
+    transform: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -1262,7 +1264,9 @@ img { max-width: 100%; display: block; }
     .hero { gap: 40px; }
     .profile-ring { width: 300px; height: 300px; }
     .profile-img-wrap { width: 190px; height: 190px; }
-    .about-grid, .contact-wrap { grid-template-columns: 1fr; }
+    .about-grid, .contact-wrap {
+    opacity: 1;
+    transform: none; grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr 1fr; }
     .projects-grid { grid-template-columns: 1fr 1fr; }
     .about-card-wrap { position: static; }
